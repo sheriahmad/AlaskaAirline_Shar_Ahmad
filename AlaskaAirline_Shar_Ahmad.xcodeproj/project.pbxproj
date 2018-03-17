@@ -14,6 +14,10 @@
 		0EDC43E9205CB34900FBEACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EDC43E8205CB34900FBEACF /* Assets.xcassets */; };
 		0EDC43EC205CB34900FBEACF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EDC43EA205CB34900FBEACF /* LaunchScreen.storyboard */; };
 		0EDC43F7205CB34900FBEACF /* AlaskaAirline_Shar_AhmadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDC43F6205CB34900FBEACF /* AlaskaAirline_Shar_AhmadTests.swift */; };
+		0EDC4402205CB8AB00FBEACF /* FlightRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDC4401205CB8AB00FBEACF /* FlightRecord.swift */; };
+		0EDC4404205CB8F800FBEACF /* PlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDC4403205CB8F800FBEACF /* PlistManager.swift */; };
+		0EDC4406205CB92600FBEACF /* TheData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EDC4405205CB92600FBEACF /* TheData.plist */; };
+		0EDC4408205CB9A000FBEACF /* ListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDC4407205CB9A000FBEACF /* ListManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		0EDC43F2205CB34900FBEACF /* AlaskaAirline_Shar_AhmadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlaskaAirline_Shar_AhmadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EDC43F6205CB34900FBEACF /* AlaskaAirline_Shar_AhmadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlaskaAirline_Shar_AhmadTests.swift; sourceTree = "<group>"; };
 		0EDC43F8205CB34900FBEACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EDC4401205CB8AB00FBEACF /* FlightRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRecord.swift; sourceTree = "<group>"; };
+		0EDC4403205CB8F800FBEACF /* PlistManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistManager.swift; sourceTree = "<group>"; };
+		0EDC4405205CB92600FBEACF /* TheData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TheData.plist; sourceTree = "<group>"; };
+		0EDC4407205CB9A000FBEACF /* ListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,10 @@
 				0EDC43E8205CB34900FBEACF /* Assets.xcassets */,
 				0EDC43EA205CB34900FBEACF /* LaunchScreen.storyboard */,
 				0EDC43ED205CB34900FBEACF /* Info.plist */,
+				0EDC4401205CB8AB00FBEACF /* FlightRecord.swift */,
+				0EDC4403205CB8F800FBEACF /* PlistManager.swift */,
+				0EDC4407205CB9A000FBEACF /* ListManager.swift */,
+				0EDC4405205CB92600FBEACF /* TheData.plist */,
 				0EDC43E5205CB34900FBEACF /* AlaskaAirline_Shar_Ahmad.xcdatamodeld */,
 			);
 			path = AlaskaAirline_Shar_Ahmad;
@@ -184,6 +196,7 @@
 			files = (
 				0EDC43EC205CB34900FBEACF /* LaunchScreen.storyboard in Resources */,
 				0EDC43E9205CB34900FBEACF /* Assets.xcassets in Resources */,
+				0EDC4406205CB92600FBEACF /* TheData.plist in Resources */,
 				0EDC43E4205CB34900FBEACF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,7 +216,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EDC43E1205CB34900FBEACF /* ViewController.swift in Sources */,
+				0EDC4408205CB9A000FBEACF /* ListManager.swift in Sources */,
+				0EDC4404205CB8F800FBEACF /* PlistManager.swift in Sources */,
 				0EDC43E7205CB34900FBEACF /* AlaskaAirline_Shar_Ahmad.xcdatamodeld in Sources */,
+				0EDC4402205CB8AB00FBEACF /* FlightRecord.swift in Sources */,
 				0EDC43DF205CB34900FBEACF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
